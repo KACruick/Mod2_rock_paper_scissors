@@ -111,7 +111,7 @@ function initializeGame() {
     output: process.stdout
   });
   console.log("Welcome to Rock/Paper/Scissors\n");
-  console.log("  Type 'h' for a list of valid commands\n");
+  console.log("Type 'h' for a list of valid commands\n");
 
   promptInput(rl);
 }
