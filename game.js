@@ -82,7 +82,8 @@ function promptInput(rl) {
     cmd = cmd.toLowerCase();
 
     if (cmd === 'h') {
-      return printHelp();
+      printHelp();
+  
     } else if (cmd === 'q') {
       rl.close();
       return;
@@ -113,10 +114,10 @@ function initializeGame() {
     output: process.stdout
   });
   console.log("Welcome to Rock/Paper/Scissors\n");
-  console.log("  Type 'r' for Rock");
-  console.log("  Type 'p' for Paper");
-  console.log("  Type 's' for Scissors");
-  console.log("  Type 'q' to quit");
+  // console.log("  Type 'r' for Rock");
+  // console.log("  Type 'p' for Paper");
+  // console.log("  Type 's' for Scissors");
+  // console.log("  Type 'q' to quit");
   console.log("  Type 'h' for a list of valid commands\n");
 
   promptInput(rl);
