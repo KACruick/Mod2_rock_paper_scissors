@@ -88,6 +88,7 @@ function promptInput(rl) {
     userMove = userMove.toLowerCase();
 
     if (userMove === 'h') {
+      console.log("\nHelp:\n");
       printHelp();
     } else if (userMove === 'q') {
       rl.close();
